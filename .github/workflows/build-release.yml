@@ -2,7 +2,7 @@ name: Build release
 on: [push]
 env:
   # The project name specified in your Cargo.toml
-  PROJECT_NAME: test_app
+  PROJECT_NAME: test-release-rs
 jobs:
   build:
     # Set the job to run on the platform specified by the matrix below

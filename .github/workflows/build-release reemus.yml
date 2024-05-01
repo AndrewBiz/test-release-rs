@@ -1,4 +1,4 @@
-name: Build release
+name: Build release reemus
 # copied from https://reemus.dev/tldr/rust-cross-compilation-github-actions
 on: [push]
 env:

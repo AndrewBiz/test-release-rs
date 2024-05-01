@@ -1,5 +1,11 @@
 name: build and test simple
-on: [push]
+# on: [push]
+on:
+  push:
+    branches:
+      - "main"
+    paths:
+      - "**.rs"
 
 env:
   CARGO_TERM_COLOR: always

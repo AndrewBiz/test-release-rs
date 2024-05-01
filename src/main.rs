@@ -3,6 +3,6 @@ fn main() {
 }
 
 #[test]
-fn test4test() {
+fn checking_assert_true() {
     assert!(true);
 }

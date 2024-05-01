@@ -1,10 +1,11 @@
 name: "ANB's workflow"
+run-name: "${{ github.actor }} is running ANB's workflow"
 on:
   push:
     branches:
       - "**master"
-    paths:
-      - "**.rs"
+    # paths:
+    # - "**.rs"
 
 env:
   CARGO_TERM_COLOR: always
